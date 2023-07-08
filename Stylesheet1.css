@@ -1,0 +1,112 @@
+ /* This Style body block will add the Image in the background */
+ body 
+ {
+        background-image: url(shapeyou.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      /* making the divisin tag of container of important links alligning it on right  */
+      .container
+      {
+        text-align: right;
+       
+        }
+       
+      
+        /* This block will going to give font size and margined right and left */
+        .right-span1 {
+          font-size: 30px;
+          margin-right: 10px;
+          display: inline-block;
+        }    
+
+          /* This block will going to give font size and margined right and left */
+        .right-span2 {
+          font-size: 30px;
+          margin-left: 10px;
+          margin-right:10px ;
+          display: inline-block;
+        }    
+
+         /* This block will going to give font size and margined right and left */
+        .right-span3 {
+          font-size: 30px;
+          margin-left: 10px;
+          margin-right:10px ;
+          display: inline-block;
+        }    
+
+         /* This block will going to give font size and margined right and left */
+        .right-span4 {
+          font-size: 30px;
+          margin-left: 10px;
+          margin-right: 10px;
+          display: inline-block;
+        }   
+         /* This block will going to give font size and margined right and left */ 
+        .right-span5 {
+          font-size: 30px;
+          margin-right: 10px;
+          margin-left: 10px;
+          display: inline-block;
+        }    
+
+        /* This style block of code will give the height, width, curved the corners, overflow is hidden of serach box  */
+        
+        .searchbar {
+          padding: 8px;
+          border: none;
+          border-radius: 20px;
+          outline: none;
+          width: 30%;
+          height: 5%;
+          padding: 8px;
+          position: absolute;
+          top: 40%;
+          left: 20%;
+          margin-left: 16%;
+        }
+
+        /* This block will make the placeholder in the center of search bar and focuses on the size of font */
+.searchbar::placeholder{
+  text-align: center;
+  font-size: 20px;
+  padding: auto;
+}
+
+/* This styles the input of name and phone no input box font size inside the box, styles border radius  */
+.input-field {
+  margin-bottom: 10px;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* styling bg and color of text written on the button Get OTP */
+.Submit-Button
+{
+  background-color: green;
+  color: rgb(16, 18, 17);
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+/* submit button of search bar which searches the location nearby which would have franchise of shape you company  */
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+
+}
